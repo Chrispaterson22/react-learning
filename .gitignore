@@ -1,1 +1,16 @@
 contact-keeper/node_modules/
+
+contact-keeper/client/build
+contact-keeper/client/node_modules
+
+contact-keeper/client/.env.local
+contact-keeper/client/.env.development.local
+contact-keeper/client/.env.test.local
+contact-keeper/client/.env.production.local
+
+contact-keeper/npm-debug.log*
+contact-keeper/yarn-debug.log*
+contact-keeper/yarn-error.log*
+
+
+
