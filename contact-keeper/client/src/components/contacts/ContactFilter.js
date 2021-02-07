@@ -2,14 +2,15 @@ import React, { useContext, useRef, useEffect } from 'react'
 import ContactContext from '../../context/contact/contactContext'
 import ContactForm from './ContactForm'
 
-const ContactFliter = () => {
+const ContactFilter = () => {
 	const contactContext = useContext(ContactContext)
 	const text = useRef('')
 
 	const { filterContacts, clearFilter, filtered } = contactContext
 
 	useEffect(() => {
-		if (condition) {
+		if (filtered === null) {
+			text.current.value = ''
 		}
 	})
 
@@ -33,4 +34,4 @@ const ContactFliter = () => {
 	)
 }
 
-export default ContactFliter
+export default ContactFilter
